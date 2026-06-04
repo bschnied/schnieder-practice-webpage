@@ -1,22 +1,38 @@
 <!DOCTYPE html>
     <html lang="en">
-      <body>
        <head>
+        <title>Birds of Chester, Virginia</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Birds of Chester, Virginia</title>
-       </head> 
+        <style>
+          p {font-family: Garamond, serif;}
+          body {background-color: skyblue}
+          a:hover {color:pink;} input:focus {background-color: bisque;}
+          table, th, td {margin: 1px;
+            border: 1px solid black;
+            padding: 10px;}
+            th {background-color: aqua;}
+            td {background-color: antiquewhite;}
+            menu {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;}
+        </style>
+       </head>
 
-<style>
-p {font-family: Garamond, serif;}
-</style>
-<style>
-body {background-color: skyblue}
-a:hover {color:pink;} a:focus</style>
-
-          <h1><a name="maincontent" id="maincontent">Backyard Birds of Chester, Virginia</a></h1>
-          <p>Chester, Virginia is home to a variety of bird species. Some of the common birds you can find in this area include<sup>[1]</sup>:</p>
+        <body>
+          <menu>
+            <li><a href="#birds">Jump to Birds</a></li>
+            <li><a href="#seeds">Jump to Birdseed Options</a></li>
+            <li><a href="#squirrel">Jump to Squirrel Prevention</a></li>
+          </menu>
+          <h1 style="color:white;">Backyard Birds of Chester, Virginia</h1>
+          <p id="birds">Chester, Virginia is home to a variety of bird species. Some of the common birds you can find in this area include<sup>[1]</sup>:</p>
           <ul>
                 <li>American Robin</li>
                 <li>Grey Catbird</li>
@@ -26,11 +42,10 @@ a:hover {color:pink;} a:focus</style>
                 <li>House Sparrow</li>
                 <li>Mourning Dove</li>
                 <li>Carolina Wren</li>
-          </ul>
-</main>          
+          </ul>    
           <p>These birds can be observed in various habitats around Chester, including parks, wooded areas, and near bodies of water. Birdwatching is a popular activity in the region, and many residents enjoy spotting and identifying different bird species throughout the year.</p>
-          <h2>Birdseed Options</h2>
-          <img src=https://portal.ct.gov/-/media/deep/wildlife/images/learn/cardinal-feeder.jpg?sc_lang=en&rev=095f7cb43ec542d39bb2b45bb181c4f5&hash=55AD1F52BC71BD5EE494BBFD912702A5 alt="northern cardinal at birdfeeder in winter"></img> 
+          <h2 id="seeds">Birdseed Options</h2>
+          <img src="https://portal.ct.gov/-/media/deep/wildlife/images/learn/cardinal-feeder.jpg" alt="northern cardinal at birdfeeder in winter">
           <p>There are many options for birdseed. Some of the most common include:</p>
           <ol>
             <li>Sunflower Seeds</li>
@@ -38,26 +53,19 @@ a:hover {color:pink;} a:focus</style>
             <li>Thistle</li>
             <li>Safflower Seeds</li>
           </ol>
-          <strong><em><a href=https://www.amazon.com/s?k=bird+feeders%27&hvadid=777815466601&hvdev=c&hvexpln=67&hvlocphy=9191598&hvnetw=g&hvocijid=10922925593231468374--&hvqmt=e&hvrand=10922925593231468374&hvtargid=kwd-2132321073335&hydadcr=3508_13856989&mcid=0fb00e57e97f397880b0489ab5ebf0df&tag=googhydr-20&ref=pd_sl_6yd398q1zu_e_p67>Click here to find bird feeders</a></em></strong>
+          <strong><em><a href="https://www.amazon.com/s?k=bird+feeders%27&hvadid=777815466601&hvdev=c&hvexpln=67&hvlocphy=9191598&hvnetw=g&hvocijid=10922925593231468374--&hvqmt=e&hvrand=10922925593231468374&hvtargid=kwd-2132321073335&hydadcr=3508_13856989&mcid=0fb00e57e97f397880b0489ab5ebf0df&tag=googhydr-20&ref=pd_sl_6yd398q1zu_e_p67">Click here to find bird feeders</a></em></strong>
           <br>
           <br>
             <img 
-            src="https://www.lyricbirdfood.com/media/1200/squirrel-reaching-for-feeder-1100.jpg?crop=0.028181818181818183,0.0054570259208731259,0.10158031680174368,0.31358311673338551&cropmode=percentage&width=700&height=365&rnd=133117032770000000" 
-            alt="Squirrel at bird feeder"
+            src="https://www.lyricbirdfood.com/media/1200/squirrel-reaching-for-feeder-1100.jpg"
+            alt="Gray squirrel at bird feeder"
             aria-describedby="description">
             <p id="description">
-            Squirrel holding with back legs onto a shepherd's hook with a bird feeder. It is able to reach the feeder by stretching out its body and using its hands to grab the birdseed.
+            Gray squirrel holding with back legs onto a shepherd's hook with a bird feeder. It is able to reach the feeder by stretching out its body and using its hands to grab the birdseed.
             </p>
 
-          <p> Squirrels can cause problems at bird feeders. Here are some common ways to solve that problem<sub>[2]</sub>.</p>
-<style>
-table, th, td {margin: 1px;
-        border: 1px solid black;
-        padding: 10px;
-        th {background-color: aqua;}
-        td {background-color: antiquewhite;}
-}
-</style>
+          <p id="squirrel">Squirrels can cause problems at bird feeders. Here are some common ways to solve that problem<sub>[2]</sub></p>
+
           <table>
             <caption>Squirrel Prevention</caption>
             <tr>
@@ -67,19 +75,19 @@ table, th, td {margin: 1px;
             </tr>
 
             <tr>
-              <td scope="row">Use a Metal Baffle</th>
+              <td>Use a Metal Baffle</td>
               <td>Use a Pole System</td>
               <td>Switch to Safflower Seed</td>
             </tr>
 
             <tr>
-              <td scope="row">Use Caged Feeders</th>
+              <td>Use Caged Feeders</td>
               <td>Put a baffle on the pole, 4 to 5 ft above ground</td>
               <td>Use Hot Pepper Seed</td>
             </tr>
 
             <tr>
-              <td scope="row">Use a weight-activated feeder</th>
+              <td>Use a weight-activated feeder</td>
               <td>Place PVC over pole</td>
               <td>Use Corn in another part of yard as a distraction</td>
             </tr>
@@ -96,4 +104,3 @@ table, th, td {margin: 1px;
           <label for="donate">Donate to Chester Bird Society</label>
         </body>
       </html>
-
